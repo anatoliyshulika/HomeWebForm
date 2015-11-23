@@ -1,0 +1,293 @@
+﻿body{
+    margin: 0 auto;
+    width: 1340px;
+    background-color: gray;
+}
+div{
+    border: 2px solid black;
+}
+#image{
+    margin: 0 auto;
+    position: relative;
+}
+._devices{
+    width: 150px;
+    height: 200px;
+    display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    background-color:mediumpurple;
+    border-radius: 5px;
+}
+._panelName{
+    width: 80px;
+    height: 19px;
+    margin-right: 3px;
+    padding-left: 3px;
+    border: 1px solid black;
+    display: inline-block;
+    background-color:khaki;
+    border-radius: 3px;
+    overflow: hidden;
+}
+._paneState{
+    width: 27px;
+    height: 19px;
+    padding-left: 2px;
+    border: 1px solid black;
+    display: inline-block;
+    background-color:khaki;
+    border-radius: 3px;
+    overflow: hidden;
+}
+._bakePanelName{
+    width: 118px;
+    height: 19px;
+    padding-left: 3px;
+    border: 1px solid black;
+    display: inline-block;
+    background-color:khaki;
+    border-radius: 3px;
+    overflow: hidden;
+}
+._burners{
+    width: 70px;
+    height: 128px;
+    margin-right: 3px;
+    border: 1px solid black;
+    display: inline-block;
+}
+._burnerImage{
+    margin-left: 2px;
+}
+._burnerPanelState{
+    width: 61px;
+    height: 17px;
+    margin: 1px;
+    margin-left: 2px;
+    padding-left: 3px;
+    border: 1px solid black;
+    display: inline-block;
+    background-color:khaki;
+    border-radius: 3px;
+}
+._burnerButtonOnOff{
+    width: 64px;
+    margin-left: 3px;
+    margin-bottom: 2px;
+    border-style: groove;
+    border-radius: 3px;
+    background-color: yellowgreen;
+}
+._burnerButtonLevel{
+    width: 29px;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-style: groove;
+    border-radius: 3px;
+    background-color: yellowgreen;
+}
+._oven{
+    width: 145px;
+    height: 43px;
+    margin-top: 2px;
+    border: 1px solid black;
+    display: inline-block;
+}
+._ovenButtonOnOff{
+    width: 69px;
+    margin-left: 2px;
+    margin-bottom: 2px;
+    border-style: groove;
+    border-radius: 3px;
+    background-color: yellowgreen;
+}
+._panelOvenState{
+    width: 64px;
+    height: 17px;
+    margin: 1px;
+    margin-left: 2px;
+    padding-left: 3px;
+    font-size: 15px;
+    border: 1px solid black;
+    display: inline-block;
+    background-color:khaki;
+    border-radius: 3px;
+}
+._frigeImage{
+    float: left;
+}
+._frigeButtonOnOff{
+    width: 72px;
+    margin-left: 5px;
+    margin-bottom: 2px;
+    border-style: groove;
+    border-radius: 3px;
+    background-color: yellowgreen;
+}
+._frigePanelLampState{
+    width: 67px;
+    height: 19px;
+    margin: 1px;
+    margin-left: 5px;
+    padding-left: 3px;
+    margin-top: 30px;
+    margin-bottom: 3px;
+    border: 1px solid black;
+    display: inline-block;
+    background-color:khaki;
+    border-radius: 3px;
+}
+._frigePanelFrizingLevel{
+    width: 141px;
+    height: 19px;
+    font-size: 14px;
+    margin-top: 3px;
+    padding-left: 3px;
+    border: 1px solid black;
+    display: inline-block;
+    background-color:khaki;
+    border-radius: 3px;
+}
+._frigeButtonFrizingLevel{
+    width: 31px;
+    margin-top: 29px;
+    margin-bottom: 3px;
+    margin-left: 5px;
+    margin-right: 3px;
+    border-style: groove;
+    border-radius: 3px;
+    background-color: yellowgreen;
+}
+._tvPanelVolume{
+    width: 141px;
+    height: 19px;
+    margin-top: 3px;
+    padding-left: 3px;
+    border: 1px solid black;
+    display: inline-block;
+    background-color:khaki;
+    border-radius: 3px;
+}
+._tvImage{
+    margin-left: 14px;
+}
+._tvButtons{
+    margin-right: 3px;
+    margin-bottom: 5px;
+    border-style: groove;
+    border-radius: 3px;
+    background-color: yellowgreen;
+}
+._tvButtonVolume{
+    width: 71px;
+    margin-right: 4px;
+    margin-bottom: 5px;
+    border-style: groove;
+    border-radius: 3px;
+    background-color: yellowgreen;
+}
+._radioPanelVolume{
+    width: 141px;
+    height: 19px;
+    margin-top: 3px;
+    padding-left: 3px;
+    border: 1px solid black;
+    display: inline-block;
+    background-color:khaki;
+    border-radius: 3px;
+}
+._radioButtonOnOff{
+    margin-right: 3px;
+    margin-bottom: 5px;
+    border-style: groove;
+    border-radius: 3px;
+    background-color: yellowgreen;
+}
+._radioButtonVolume{
+    width: 45px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+    border-style: groove;
+    border-radius: 3px;
+    background-color: yellowgreen;
+}
+._radioImage{
+    margin-left: 22px;
+    margin-top: 25px;
+}
+._lampButtonOnOff{
+    width: 150px;
+    border-style: groove;
+    border-radius: 3px;
+    background-color: yellowgreen;
+}
+._lampImage{
+    margin-left: 9px;
+}
+._buttonDelete{
+    float: right;
+    border-radius: 5px;
+    background-color: blanchedalmond;
+    border-style: groove;
+    background-color: orangered;
+}
+#addmenu{
+    float: right;
+    width: 150px;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+#addDevice{
+    width: 150px;
+    height: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+    border-style: groove;
+}
+#typeOfDevice{
+    width: 142px;
+    height: 22px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    padding-left: 5px;
+    padding-top: 3px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: beige;
+}
+#selectDevice{
+    width: 148px;
+    height: 22px;
+}
+#labelNameOfDevice{
+    width: 142px;
+    height: 22px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    padding-left: 5px;
+    padding-top: 3px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: beige;
+}
+#Device{
+    display: inline-block;
+    width: 1336px;
+    height: 1200px;
+    background-image: url(../Picture/FonMeinArea.jpg);
+    overflow: auto;
+}
+#addDevice{
+    margin: 0 auto;
+    position: relative;
+}
+#TextBoxNameOfDevice{
+    width: 145px;
+    height: 20px;
+}
+
